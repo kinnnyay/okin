@@ -1,0 +1,51 @@
+.jumbotron {
+  padding-top: 7rem;
+  background-color: #caf0f8;
+}
+
+#gallery {
+  background-color: #caf0f8;
+}
+
+section {
+  padding-top: 5rem;
+}
+
+.link1 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 1px;
+  margin-top: 1px;
+}
+
+.link1 > a {
+  background-color: #caf0f8;
+  padding: 40px;
+  font-size: 30px;
+  font-weight: 300;
+  border-right: 10px;
+  transition: background 0.3s, transform 0.5s;
+}
+
+.link1 > a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 30px;
+  margin-top: 20px;
+  display: inline-block;
+}
+
+.link1 > a:hover {
+  background: #00b4d8;
+  transform: translateY(-10px);
+}
+
+.snowflake {
+  position: fixed;
+  width: 25px;
+  height: 25px;
+  background: linear-gradient(white, white);
+  /* Workaround for Chromium's selective color inversion */
+  border-radius: 50%;
+  filter: drop-shadow(0 0 10px white);
+}
